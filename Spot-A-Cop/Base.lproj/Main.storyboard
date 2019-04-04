@@ -19,11 +19,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="picturetopeople.org-0a98ad35fd8ad9fb63bc37b49cca12853efdc31ee455915abf" translatesAutoresizingMaskIntoConstraints="NO" id="a9p-xx-OkH">
-                                <rect key="frame" x="20" y="120" width="374" height="168"/>
+                                <rect key="frame" x="20" y="62" width="374" height="168"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="police.pig_" translatesAutoresizingMaskIntoConstraints="NO" id="TV3-uT-4zy">
-                                <rect key="frame" x="84" y="238" width="246" height="250"/>
+                                <rect key="frame" x="84" y="182" width="246" height="250"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
