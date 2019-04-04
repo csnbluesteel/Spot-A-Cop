@@ -18,12 +18,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="picturetopeople.org-0a98ad35fd8ad9fb63bc37b49cca12853efdc31ee455915abf" translatesAutoresizingMaskIntoConstraints="NO" id="a9p-xx-OkH">
-                                <rect key="frame" x="20" y="62" width="374" height="168"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="picturetopeople.org-487316d46c026c73c5a86427f416ff49f75f02106a2259b8cc" translatesAutoresizingMaskIntoConstraints="NO" id="a9p-xx-OkH">
+                                <rect key="frame" x="10" y="85" width="374" height="168"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="police.pig_" translatesAutoresizingMaskIntoConstraints="NO" id="TV3-uT-4zy">
-                                <rect key="frame" x="84" y="182" width="246" height="250"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kisspng-police-officer-computer-icons-military-police-policeman-icon-5b2f5d1f812ff0.3797193815298306875292" translatesAutoresizingMaskIntoConstraints="NO" id="u7n-pW-MnR">
+                                <rect key="frame" x="73" y="261" width="248" height="239"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -52,7 +52,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="picturetopeople.org-0a98ad35fd8ad9fb63bc37b49cca12853efdc31ee455915abf" width="885" height="431"/>
-        <image name="police.pig_" width="418.5" height="399"/>
+        <image name="kisspng-police-officer-computer-icons-military-police-policeman-icon-5b2f5d1f812ff0.3797193815298306875292" width="1200" height="1200"/>
+        <image name="picturetopeople.org-487316d46c026c73c5a86427f416ff49f75f02106a2259b8cc" width="953" height="148"/>
     </resources>
 </document>
