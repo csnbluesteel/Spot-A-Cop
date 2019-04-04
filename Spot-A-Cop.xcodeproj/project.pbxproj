@@ -10,13 +10,14 @@
 		0E93C20E555B4B631E2D65E2 /* Pods_Spot_A_CopTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D72D95DD8F1CA32D813A8A1D /* Pods_Spot_A_CopTests.framework */; };
 		3871C6465D109A2B4C4B2918 /* Pods_Spot_A_CopUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FFA10A4CB360DBA2B34FCF4 /* Pods_Spot_A_CopUITests.framework */; };
 		93CFDA99225560C3007E0F04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CFDA98225560C3007E0F04 /* AppDelegate.swift */; };
-		93CFDA9B225560C3007E0F04 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CFDA9A225560C3007E0F04 /* ViewController.swift */; };
 		93CFDA9E225560C4007E0F04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93CFDA9C225560C4007E0F04 /* Main.storyboard */; };
 		93CFDAA0225560C8007E0F04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93CFDA9F225560C8007E0F04 /* Assets.xcassets */; };
 		93CFDAA3225560C8007E0F04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93CFDAA1225560C8007E0F04 /* LaunchScreen.storyboard */; };
 		93CFDAAE225560C8007E0F04 /* Spot_A_CopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CFDAAD225560C8007E0F04 /* Spot_A_CopTests.swift */; };
 		93CFDAB9225560C8007E0F04 /* Spot_A_CopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CFDAB8225560C8007E0F04 /* Spot_A_CopUITests.swift */; };
 		99944D6E98EB9744E13FF58F /* Pods_Spot_A_Cop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D78DA873EE99D2897B84185D /* Pods_Spot_A_Cop.framework */; };
+		A99DBC672256C47400A9E949 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99DBC662256C47400A9E949 /* LoginViewController.swift */; };
+		A99DBC692256C48500A9E949 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99DBC682256C48500A9E949 /* FeedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +45,6 @@
 		85DD4C17DCDD58684E3D7E29 /* Pods-Spot-A-Cop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spot-A-Cop.release.xcconfig"; path = "Target Support Files/Pods-Spot-A-Cop/Pods-Spot-A-Cop.release.xcconfig"; sourceTree = "<group>"; };
 		93CFDA95225560C3007E0F04 /* Spot-A-Cop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Spot-A-Cop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93CFDA98225560C3007E0F04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		93CFDA9A225560C3007E0F04 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		93CFDA9D225560C4007E0F04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		93CFDA9F225560C8007E0F04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93CFDAA2225560C8007E0F04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,6 +55,8 @@
 		93CFDAB4225560C8007E0F04 /* Spot-A-CopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Spot-A-CopUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93CFDAB8225560C8007E0F04 /* Spot_A_CopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spot_A_CopUITests.swift; sourceTree = "<group>"; };
 		93CFDABA225560C8007E0F04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A99DBC662256C47400A9E949 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A99DBC682256C48500A9E949 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		D72D95DD8F1CA32D813A8A1D /* Pods_Spot_A_CopTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Spot_A_CopTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D78DA873EE99D2897B84185D /* Pods_Spot_A_Cop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Spot_A_Cop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE1B4F3D8413958DE82CCB62 /* Pods-Spot-A-CopUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spot-A-CopUITests.debug.xcconfig"; path = "Target Support Files/Pods-Spot-A-CopUITests/Pods-Spot-A-CopUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -125,9 +127,10 @@
 			isa = PBXGroup;
 			children = (
 				93CFDA98225560C3007E0F04 /* AppDelegate.swift */,
-				93CFDA9A225560C3007E0F04 /* ViewController.swift */,
 				93CFDA9C225560C4007E0F04 /* Main.storyboard */,
 				93CFDA9F225560C8007E0F04 /* Assets.xcassets */,
+				A99DBC662256C47400A9E949 /* LoginViewController.swift */,
+				A99DBC682256C48500A9E949 /* FeedViewController.swift */,
 				93CFDAA1225560C8007E0F04 /* LaunchScreen.storyboard */,
 				93CFDAA4225560C8007E0F04 /* Info.plist */,
 			);
@@ -162,7 +165,6 @@
 				DE1B4F3D8413958DE82CCB62 /* Pods-Spot-A-CopUITests.debug.xcconfig */,
 				EA3064F60C8FD41616103A0C /* Pods-Spot-A-CopUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -398,7 +400,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93CFDA9B225560C3007E0F04 /* ViewController.swift in Sources */,
+				A99DBC672256C47400A9E949 /* LoginViewController.swift in Sources */,
+				A99DBC692256C48500A9E949 /* FeedViewController.swift in Sources */,
 				93CFDA99225560C3007E0F04 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
