@@ -90,6 +90,30 @@
             </objects>
             <point key="canvasLocation" x="24.637681159420293" y="160.71428571428569"/>
         </scene>
+        <!--Map View Controller-->
+        <scene sceneID="u18-o1-gsN">
+            <objects>
+                <viewController id="L05-Vu-hPv" customClass="MapViewController" customModule="Spot_A_Cop" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="e6h-Fy-96f">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="fX4-xg-9mC">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="pyT-CZ-KJR"/>
+                    </view>
+                    <connections>
+                        <outlet property="Map" destination="fX4-xg-9mC" id="9Ei-7j-pp8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BLN-cK-1gg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="21.739130434782609" y="829.6875"/>
+        </scene>
         <!--Feed View Controller-->
         <scene sceneID="gbe-S5-Dnr">
             <objects>
