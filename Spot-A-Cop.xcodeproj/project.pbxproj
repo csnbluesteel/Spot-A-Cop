@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		0E93C20E555B4B631E2D65E2 /* Pods_Spot_A_CopTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D72D95DD8F1CA32D813A8A1D /* Pods_Spot_A_CopTests.framework */; };
 		3871C6465D109A2B4C4B2918 /* Pods_Spot_A_CopUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FFA10A4CB360DBA2B34FCF4 /* Pods_Spot_A_CopUITests.framework */; };
-		93A2F3532256D18700024DE5 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A2F3522256D18700024DE5 /* MapViewController.swift */; };
+		937ADC6C2256FFC00016B361 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937ADC6B2256FFC00016B361 /* MapViewController.swift */; };
 		93CFDA99225560C3007E0F04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CFDA98225560C3007E0F04 /* AppDelegate.swift */; };
 		93CFDA9E225560C4007E0F04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93CFDA9C225560C4007E0F04 /* Main.storyboard */; };
 		93CFDAA0225560C8007E0F04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93CFDA9F225560C8007E0F04 /* Assets.xcassets */; };
@@ -44,7 +44,7 @@
 		62A121EE4749499C9B21B41E /* Pods-Spot-A-CopTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spot-A-CopTests.release.xcconfig"; path = "Target Support Files/Pods-Spot-A-CopTests/Pods-Spot-A-CopTests.release.xcconfig"; sourceTree = "<group>"; };
 		81FF98FD934F3DEC39B14A4A /* Pods-Spot-A-Cop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spot-A-Cop.debug.xcconfig"; path = "Target Support Files/Pods-Spot-A-Cop/Pods-Spot-A-Cop.debug.xcconfig"; sourceTree = "<group>"; };
 		85DD4C17DCDD58684E3D7E29 /* Pods-Spot-A-Cop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spot-A-Cop.release.xcconfig"; path = "Target Support Files/Pods-Spot-A-Cop/Pods-Spot-A-Cop.release.xcconfig"; sourceTree = "<group>"; };
-		93A2F3522256D18700024DE5 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		937ADC6B2256FFC00016B361 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		93CFDA95225560C3007E0F04 /* Spot-A-Cop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Spot-A-Cop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93CFDA98225560C3007E0F04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		93CFDA9D225560C4007E0F04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -130,12 +130,12 @@
 			children = (
 				93CFDA98225560C3007E0F04 /* AppDelegate.swift */,
 				93CFDA9C225560C4007E0F04 /* Main.storyboard */,
-				93A2F3522256D18700024DE5 /* MapViewController.swift */,
 				93CFDA9F225560C8007E0F04 /* Assets.xcassets */,
 				A99DBC662256C47400A9E949 /* LoginViewController.swift */,
 				A99DBC682256C48500A9E949 /* FeedViewController.swift */,
 				93CFDAA1225560C8007E0F04 /* LaunchScreen.storyboard */,
 				93CFDAA4225560C8007E0F04 /* Info.plist */,
+				937ADC6B2256FFC00016B361 /* MapViewController.swift */,
 			);
 			path = "Spot-A-Cop";
 			sourceTree = "<group>";
@@ -406,7 +406,7 @@
 				A99DBC672256C47400A9E949 /* LoginViewController.swift in Sources */,
 				A99DBC692256C48500A9E949 /* FeedViewController.swift in Sources */,
 				93CFDA99225560C3007E0F04 /* AppDelegate.swift in Sources */,
-				93A2F3532256D18700024DE5 /* MapViewController.swift in Sources */,
+				937ADC6C2256FFC00016B361 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
