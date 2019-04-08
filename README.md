@@ -78,4 +78,13 @@ This app will mark speed trap locations on a map based off of user input. It wil
    | Username      | String   | Unique hashed id for the user |
    | Password      | String   | Hashed password for the user|
    | Email         | String   | Hashed email for the user |
+   
+### Networking
+**List of network requests by screen**
+* Map Screen
+  * (Read/Get) Display most popular user pins
+  * (Create/Post) User can set a  pin on the map
+
+- [Create basic snippets for each Parse network request]
+
 
