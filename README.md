@@ -63,10 +63,10 @@ This app will mark speed trap locations on a map based off of user input. It wil
 
 ## Wireframes
 
-### [BONUS] Digital Wireframes & Mockups
+### Digital Wireframes & Mockups
 <img src="https://i.imgur.com/NoeCE47.png" width=600>
 
-### [BONUS] Interactive Prototype
+### Interactive Prototype
 <img src="http://g.recordit.co/t0LdILeiRi.gif" width=600>
 
 ## Schema 
