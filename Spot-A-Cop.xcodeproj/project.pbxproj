@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		0E93C20E555B4B631E2D65E2 /* Pods_Spot_A_CopTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D72D95DD8F1CA32D813A8A1D /* Pods_Spot_A_CopTests.framework */; };
 		3871C6465D109A2B4C4B2918 /* Pods_Spot_A_CopUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FFA10A4CB360DBA2B34FCF4 /* Pods_Spot_A_CopUITests.framework */; };
+		931E237C22602652005A89E9 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931E237B22602652005A89E9 /* MapViewController.swift */; };
+		937ADC6E2260132C0016B361 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 937ADC6D2260132C0016B361 /* MapKit.framework */; };
 		93CFDA99225560C3007E0F04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CFDA98225560C3007E0F04 /* AppDelegate.swift */; };
 		93CFDA9E225560C4007E0F04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93CFDA9C225560C4007E0F04 /* Main.storyboard */; };
 		93CFDAA0225560C8007E0F04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93CFDA9F225560C8007E0F04 /* Assets.xcassets */; };
@@ -43,6 +45,8 @@
 		62A121EE4749499C9B21B41E /* Pods-Spot-A-CopTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spot-A-CopTests.release.xcconfig"; path = "Target Support Files/Pods-Spot-A-CopTests/Pods-Spot-A-CopTests.release.xcconfig"; sourceTree = "<group>"; };
 		81FF98FD934F3DEC39B14A4A /* Pods-Spot-A-Cop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spot-A-Cop.debug.xcconfig"; path = "Target Support Files/Pods-Spot-A-Cop/Pods-Spot-A-Cop.debug.xcconfig"; sourceTree = "<group>"; };
 		85DD4C17DCDD58684E3D7E29 /* Pods-Spot-A-Cop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spot-A-Cop.release.xcconfig"; path = "Target Support Files/Pods-Spot-A-Cop/Pods-Spot-A-Cop.release.xcconfig"; sourceTree = "<group>"; };
+		931E237B22602652005A89E9 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		937ADC6D2260132C0016B361 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		93CFDA95225560C3007E0F04 /* Spot-A-Cop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Spot-A-Cop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93CFDA98225560C3007E0F04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		93CFDA9D225560C4007E0F04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -68,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				937ADC6E2260132C0016B361 /* MapKit.framework in Frameworks */,
 				99944D6E98EB9744E13FF58F /* Pods_Spot_A_Cop.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -94,6 +99,7 @@
 		0D6D61687C4CBE302AD2B740 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				937ADC6D2260132C0016B361 /* MapKit.framework */,
 				D78DA873EE99D2897B84185D /* Pods_Spot_A_Cop.framework */,
 				D72D95DD8F1CA32D813A8A1D /* Pods_Spot_A_CopTests.framework */,
 				3FFA10A4CB360DBA2B34FCF4 /* Pods_Spot_A_CopUITests.framework */,
@@ -133,6 +139,7 @@
 				A99DBC682256C48500A9E949 /* FeedViewController.swift */,
 				93CFDAA1225560C8007E0F04 /* LaunchScreen.storyboard */,
 				93CFDAA4225560C8007E0F04 /* Info.plist */,
+				931E237B22602652005A89E9 /* MapViewController.swift */,
 			);
 			path = "Spot-A-Cop";
 			sourceTree = "<group>";
@@ -403,6 +410,7 @@
 				A99DBC672256C47400A9E949 /* LoginViewController.swift in Sources */,
 				A99DBC692256C48500A9E949 /* FeedViewController.swift in Sources */,
 				93CFDA99225560C3007E0F04 /* AppDelegate.swift in Sources */,
+				931E237C22602652005A89E9 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
