@@ -102,12 +102,23 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </mapView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lqk-Jk-Rjm">
+                                <rect key="frame" x="127" y="768" width="172" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <state key="normal" title="DROP A PIN ">
+                                    <color key="titleColor" red="0.10285157710313797" green="0.15140333771705627" blue="0.57278913259506226" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="dropApin:" destination="L05-Vu-hPv" eventType="touchUpInside" id="zyu-5Y-eNa"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="pyT-CZ-KJR"/>
                     </view>
                     <connections>
-                        <outlet property="Map" destination="fX4-xg-9mC" id="Npo-P5-iSJ"/>
+                        <outlet property="mapView" destination="fX4-xg-9mC" id="8S4-Gj-De7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BLN-cK-1gg" userLabel="First Responder" sceneMemberID="firstResponder"/>
