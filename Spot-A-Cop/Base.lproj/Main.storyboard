@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="L05-Vu-hPv">
     <device id="retina6_1" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -145,7 +145,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="kisspng-police-officer-computer-icons-military-police-policeman-icon-5b2f5d1f812ff0.3797193815298306875292" width="1200" height="1200"/>
+        <image name="kisspng-police-officer-computer-icons-military-police-policeman-icon-5b2f5d1f812ff0.3797193815298306875292" width="1600" height="1600"/>
         <image name="picturetopeople.org-487316d46c026c73c5a86427f416ff49f75f02106a2259b8cc" width="953" height="148"/>
     </resources>
 </document>

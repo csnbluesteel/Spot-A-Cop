@@ -6,6 +6,7 @@
 //  Copyright © 2019 BLUESTEEL. All rights reserved.
 //
 
+import Parse
 import UIKit
 import MapKit
 import CoreLocation
@@ -17,17 +18,30 @@ class MapViewController: UIViewController, MKMapViewDelegate {
     let locationManager = CLLocationManager()
     let regionInMeters: Double = 300
     
-    
+    var location = PFObject(className:"location")
     
     @IBAction func dropApin(_ sender: Any) {
         
         let annotation = MKPointAnnotation()
         let locationCoordinate = CLLocationCoordinate2D(latitude: mapView.userLocation.coordinate.latitude, longitude: mapView.userLocation.coordinate.longitude)
+        let latitude = locationCoordinate.latitude
+        let longitude = locationCoordinate.longitude
         
+        let point = PFGeoPoint(latitude:latitude, longitude: longitude)
         
+        location["coordinates"] = point
         annotation.coordinate = locationCoordinate
         annotation.title = "COP!"
         mapView.addAnnotation(annotation)
+        
+        location.saveInBackground { (success: Bool, failure: Error?) in
+            if (success) {
+                print("Coordinates were saved")
+            } else {
+                
+                print("Coordinates were not saved")
+            }
+        }
     }
     
     func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView?
