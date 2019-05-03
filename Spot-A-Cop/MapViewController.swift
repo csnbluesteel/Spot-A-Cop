@@ -23,6 +23,8 @@ class MapViewController: UIViewController, MKMapViewDelegate {
         
         let annotation = MKPointAnnotation()
         let locationCoordinate = CLLocationCoordinate2D(latitude: mapView.userLocation.coordinate.latitude, longitude: mapView.userLocation.coordinate.longitude)
+        
+        
         annotation.coordinate = locationCoordinate
         annotation.title = "COP!"
         mapView.addAnnotation(annotation)
