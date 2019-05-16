@@ -1,0 +1,6 @@
+framework module Pods_Spot_A_Cop2_0 {
+  umbrella header "Pods-Spot-A-Cop2.0-umbrella.h"
+
+  export *
+  module * { export * }
+}
